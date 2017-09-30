@@ -17,10 +17,10 @@ def take_a_number(array, name)
   array << name
 end
 
-number = 0
-tag = nil
-array.each do |name|
-  number += 1
-  tag = "Welcome, #{name}. You are number #{number} in line."
-end
-tag
+#number = 0
+#tag = nil
+#array.each do |name|
+#  number += 1
+#  tag = "Welcome, #{name}. You are number #{number} in line."
+#end
+#tag
