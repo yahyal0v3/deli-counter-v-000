@@ -15,6 +15,13 @@ end
 
 def take_a_number(array, name)
   array << name
+  number = 0
+  tag = nil
+    array.each do |name|
+      number += 1
+      tag = "Welcome, #{name}. You are number #{number} in line."
+    end
+  tag
 end
 
 #number = 0
