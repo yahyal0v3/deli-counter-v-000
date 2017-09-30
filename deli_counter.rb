@@ -7,8 +7,8 @@ def line(array)
     current_place = []
     array.each do |name|
       number += 1
-      current_place << (" #{number}. #{name}")
+      current_place << " #{number}. #{name}"
     end
-  puts "The line is currently:" + current_place.join
   end
+  puts "The line is currently:" + current_place.join
 end
