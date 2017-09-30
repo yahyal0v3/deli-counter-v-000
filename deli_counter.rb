@@ -9,6 +9,6 @@ def line(array)
       number += 1
       current_place << " #{number}. #{name}"
     end
+    puts "The line is currently:" + current_place.join
   end
-  puts "The line is currently:" + current_place.join
 end
