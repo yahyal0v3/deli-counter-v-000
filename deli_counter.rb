@@ -6,6 +6,6 @@ def line(array)
   array.collect do |name|
     number += 1
     current_place = "#{number}. " + "#{name}"
+    puts current_place
   end
-  current_place
 end
