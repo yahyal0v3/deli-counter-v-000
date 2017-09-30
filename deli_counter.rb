@@ -15,10 +15,8 @@ end
 
 def take_a_number(array, name)
   array << name
-  number = 0
-  tag = nil
+  number = array.index(name) + 1
     array.each do |name|
-      number += 1
       puts "Welcome, #{name}. You are number #{number} in line."
     end
 end
