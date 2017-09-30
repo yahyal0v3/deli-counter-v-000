@@ -9,6 +9,6 @@ def line(array)
       number += 1
       current_place << ("#{number}. #{name}")
     end
-  end
   puts current_place
+  end
 end
