@@ -14,11 +14,13 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  number = 0
-  tag = nil
-  array.each do |name|
-    number += 1
-    tag = "Welcome, #{name}. You are number #{number} in line."
-  end
-  tag
+  array << name
 end
+
+number = 0
+tag = nil
+array.each do |name|
+  number += 1
+  tag = "Welcome, #{name}. You are number #{number} in line."
+end
+tag
