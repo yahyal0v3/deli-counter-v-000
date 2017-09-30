@@ -12,3 +12,10 @@ def line(array)
     puts "The line is currently:" + current_place.join
   end
 end
+
+def take_a_number(array, name)
+  number = 0
+  array.each do |number|
+    number += 1
+  end  
+end
