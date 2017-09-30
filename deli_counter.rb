@@ -1,4 +1,4 @@
 # Write your code here.
 def line(array)
-  "There is nobody waiting to be served!" if array.size == 0
+  puts "The line is currentlt empty!" if array.size == 0
 end
