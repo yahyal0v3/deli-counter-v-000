@@ -17,5 +17,5 @@ def take_a_number(array, name)
   number = 0
   array.each do |number|
     number += 1
-  end  
+  end
 end
