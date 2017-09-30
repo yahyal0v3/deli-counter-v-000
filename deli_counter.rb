@@ -2,8 +2,10 @@
 def line(array)
   puts "The line is currently empty." if array.size == 0
   number = 0
-  array.collect do |name|
+  current_place = []
+  array.each do |name|
     number += 1
-    puts "#{number}. #{name}"
+    current_place << "#{number}. #{name}"
+    puts current_place
   end
 end
