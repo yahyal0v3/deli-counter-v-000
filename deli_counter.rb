@@ -5,6 +5,6 @@ def line(array)
   current_place = []
   array.each do |name|
     number += 1
-    current_place.push("#{number}. ", "#{name}") 
+    puts current_place.push("#{number}. ", "#{name}")
   end
 end
