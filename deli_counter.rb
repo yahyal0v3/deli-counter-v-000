@@ -17,6 +17,7 @@ def take_a_number(array, name)
   number = 0
   array.each do |name|
     number += 1
-    return "Welcome, #{name}. You are number #{number} in line."
+    tag = "Welcome, #{name}. You are number #{number} in line."
   end
+  tag
 end
