@@ -6,5 +6,5 @@ def line(array)
     number += 1
     current_place = "#{number}. #{name}"
   end
-  
+  current_place
 end
