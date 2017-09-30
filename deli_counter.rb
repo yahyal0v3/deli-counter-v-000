@@ -15,7 +15,8 @@ end
 
 def take_a_number(array, name)
   number = 0
-  array.each do |number|
+  array.each do |name|
     number += 1
+    puts "Welcome, #{name}. You are number #{number} in line."
   end
 end
