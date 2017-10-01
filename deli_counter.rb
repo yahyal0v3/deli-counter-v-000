@@ -19,10 +19,8 @@ def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{number} in line."
 end
 
-#number = 0
-#tag = nil
-#array.each do |name|
-#  number += 1
-#  tag = "Welcome, #{name}. You are number #{number} in line."
-#end
-#tag
+def now_serving(array)
+  array.each do |name|
+    puts "Currently serving #{name}."
+  end
+end
