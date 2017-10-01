@@ -23,8 +23,6 @@ def now_serving(array)
   if array.size == 0
     puts "There is nobody waiting to be served!"
   else
-    array.each do |name|
-      puts "Currently serving #{name}."
-    end
+    puts "Currently serving #{array.shift}."
   end
 end
